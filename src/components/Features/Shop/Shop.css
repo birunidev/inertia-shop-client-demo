@@ -1,0 +1,10 @@
+.category-item {
+  @apply opacity-50 transition-opacity duration-300 ease-in-out;
+}
+
+.category-item:hover {
+  @apply opacity-100 cursor-pointer;
+}
+.category-item.active {
+  @apply opacity-100;
+}
