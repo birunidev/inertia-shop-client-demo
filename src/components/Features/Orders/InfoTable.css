@@ -1,7 +1,0 @@
-.info-table {
-  @apply w-full;
-}
-
-.info-table td {
-  @apply py-1 text-xs md:py-2 md:text-sm;
-}

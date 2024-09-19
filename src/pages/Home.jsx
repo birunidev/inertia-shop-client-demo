@@ -1,9 +1,7 @@
 import HomeCategories from "components/Features/Homepage/HomeCategories";
 import HomeImageItem from "components/Features/Homepage/HomeImageItem";
-import HomeProducts from "components/Features/Homepage/HomeProducts";
 import HomeSlogan from "components/Features/Homepage/HomeSlogan";
 import BaseLayout from "components/Layouts/BaseLayout";
-import React from "react";
 
 export default function Home() {
   return (
@@ -15,7 +13,6 @@ export default function Home() {
         imageClassName="h-[300px] lg:h-[500px] xl:h-[700px] 2xl:h-[800px]"
       />
       <HomeCategories />
-      <HomeProducts />
       <HomeSlogan />
     </BaseLayout>
   );
